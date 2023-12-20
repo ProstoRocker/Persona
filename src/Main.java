@@ -8,7 +8,7 @@ public class Main {
             String name = scanner.nextLine(); //Считывает строку из System.in
             isCorrectName = checkName(name);
             if (!isCorrectName) {
-                System.out.println("Введите корректное имя!");
+                System.out.println("Введите имя!");
             } else {
                 System.out.println(formatName(name));
             }
